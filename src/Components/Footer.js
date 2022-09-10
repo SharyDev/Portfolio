@@ -50,17 +50,17 @@ function Footer() {
             <form onSubmit={sendEmail} className="form-f">
             <div className="f-t-n">
             <label >Name</label><br></br>
-                <input type="text" placeholder="name" className="c-n" name="name"></input><br/><br/>
+                <input type="text" placeholder="Enter Name Here" className="c-n" name="name"></input><br/><br/>
                 </div>
                 <div className="f-t-e">
                 <label>Email</label><br/>
-                <input type="email" placeholder="email" className="c-e" name="user_email"></input><br/><br/>
+                <input type="email" placeholder="Enter Email Here" className="c-e" name="user_email"></input><br/><br/>
                 
                 </div>
                 
                 <div className="f-t-m">
                 <label>Message</label><br></br>
-                <input type="text"  className="c-m" name="message"></input>
+                <textarea  className="c-m"  placeholder="Enter Message" name="message" maxLength="400" wrap="physical" rows="1" cols="50" ></textarea>
                 </div>
                 <br/>
                 <input type="submit" className="btn-f" value="Send Message"></input>

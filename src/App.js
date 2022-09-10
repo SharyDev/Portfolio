@@ -20,10 +20,7 @@ function App() {
     <Header></Header>
     <Part1></Part1>
     <Part2></Part2>
-    <Part3></Part3>
-    <Part4></Part4>
-    <Footer></Footer>
-    
+  
     </>
   );
   

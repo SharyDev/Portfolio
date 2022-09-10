@@ -18,7 +18,7 @@ function Part1 () {
                 <h3 className="P1-p">A design-minded Developer
                 <br/>focused on building beautiful
                 <br/>interfaces & experiences.</h3>
-                <button className="b-p1" onClick={scrollToContact} >Hire Me</button>
+                <button className="b-p1" onClick={scrollToContact} ><p className="bt-p1">Hire Me</p></button>
                 </div>
                 <img src={img} className="part1-img" ></img>
                 
